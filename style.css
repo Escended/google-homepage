@@ -170,7 +170,7 @@ a {
     grid-template-areas: 
     "Country . . . . ."
     "Advertising Business Search Privacy Terms Settings";
-    bottom: 0;
+    bottom: 40px;
     left: 0;
     position: absolute;
     right: 0;
@@ -182,9 +182,10 @@ a {
 #footer span {
     grid-area: Country;
     align-self: center;
-    text-align: center;
+    text-align: left;
     font-size: 15px;
     white-space: nowrap;
+    margin-left: 20px;
 }
 
 #second-footer {
@@ -196,3 +197,27 @@ a {
     
 }
 
+.nav-bottom-left {
+    display: flex;
+    font-size: 13px;
+    position: absolute;
+    margin: 7px 0 0 10px;
+    margin-top: 16px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #dadada6c;
+    padding-top: 15px;
+    left: -10px
+}
+
+.nav-bottom-left a {
+    display: inline-block;
+    padding-left: 20px;
+    color: #000;
+    align-self: center;
+    padding-bottom: 10px;
+    opacity: 0.5;
+    font-family: arial,sans-serif;
+    font-size: 15px;
+}
